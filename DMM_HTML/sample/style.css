@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: rgba(140, 140, 140, 0.5);
+    height: 50px;
+    display: flex;
+    position: relative;
+    }
+.brand{
+    display: inline-block;
+    background-color: rgba(8, 8, 8, 0.5);
+    margin-left: 20px;
+    
+}
+.login{
+    display: inline-block;
+}
+.login{
+    line-height: 50px;
+    margin-left: 20px;
+}
+.use-inf{
+    display: inline-block;
+    text-align: right;
+    line-height: 50px;
+    position: absolute;
+    right: 5%;
+}
+main{
+    height: 900px;
+    display: flex;
+    background-color: slateblue;
+    padding: 20px;
+    background-image: url(img/sports-area.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.preview-product-set{
+    width: 1000px;
+    height: 860px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.preview-forward{
+    display: flex;
+    justify-content: center;
+}
+.shirts-forward{
+    height: 240px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.shorts-forward{
+    height: 240px;
+}
+.socks-forward{
+    height: 240px;
+}
+.product{
+    width: 519.2px;
+    height: 860px;
+}
+.product-nav{
+    display: flex;
+    width: 100%;
+}
+.product-nav-bt{
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-left: 20px;
+}
+.custom{
+    margin: 5px 0px 0px 10px;
+    background-color: grey;
+    height: 831px;
+    padding: 5px;
+}
+.product-box-scroll{
+    height: 150px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product-img-box{
+    height: 150px;
+    margin-right: 5px;
+}
+.model-selector-bt{
+    background-color: rgba(77, 52, 52, 0.205);
+    width: 40px;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+}
+.product-customize{
+    border: solid 5px black;
+    height: 610px;
+}
